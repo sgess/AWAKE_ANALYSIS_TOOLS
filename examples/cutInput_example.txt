@@ -1,0 +1,25 @@
+# required fields
+searchDir = /eos/experiment/awake/event_data/ # Use this on SWAN
+ntupleDir = ./ #best if your current directory is your scratch directory
+ntupleFile = example_ntup.h5
+/AwakeEventInfo/timestamp > 12-12-2016 01:15:00
+/AwakeEventInfo/timestamp < 12-12-2016 02:45:00
+
+# Apply cuts
+/AwakeEventData/TT41.BCTF.412340/Acquisition/totalIntensityPreferred < 100.0
+/AwakeEventData/TT41.BCTF.412340/Acquisition/totalIntensityPreferred > 1.0
+/AwakeEventData/XMPP-STREAK/StreakImage/streakImageTimeRange == 200 ps
+/AwakeEventData/XMPP-STREAK/StreakImage/streakImageMcpGain == 20
+
+# Fields to be included in ntuple. Cut fields are included by default
+/AwakeEventData/XMPP-STREAK/StreakImage/streakImageData
+/AwakeEventData/XMPP-STREAK/StreakImage/streakImageHeight
+/AwakeEventData/XMPP-STREAK/StreakImage/streakImageTimeValues
+/AwakeEventData/XMPP-STREAK/StreakImage/streakImageWidth
+/AwakeEventData/awake.XAWAVS_BEAML_TT_AVG/PosSt/value
+/AwakeEventData/awake.XAWAVS_DF_TT_AVG/PosSt/value
+/AwakeEventData/awake.XAWAVS_UF_TT_AVG/PosSt/value
+/AwakeEventData/awake.XAWAVS_VX_TT_AVG/PosSt/value
+
+# Ntupling flags
+formatImages = 1 # this flag formats 1D image strings into 2D arrays

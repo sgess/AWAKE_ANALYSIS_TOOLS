@@ -1,0 +1,1263 @@
+Path,Field,DataType,Size,Dim1,Dim2,AttrDepth,TimeInfo,Comment
+/AwakeEventData/AIRTR02/Acq,position,|S2,1,1,0,0,acqStamp,Linear Translator in TCV4
+/AwakeEventData/AWAKEInjPhaseShifter/PhaseReadback,phaseACurrentValue,float32,1,1,0,0,acqStamp,SPS-AWAKE RF phase
+/AwakeEventData/BLMITT41/Acquisition,acqDesc,|S1,1,1,0,2,acqStamp,Beam loss
+/AwakeEventData/BLMITT41/Acquisition,acqMsg,|S1,1,1,0,2,acqStamp,Beam loss
+/AwakeEventData/BLMITT41/Acquisition,acqState,int64,1,1,0,2,acqStamp,Beam loss
+/AwakeEventData/BLMITT41/Acquisition,acqTime,int32,1,1,0,2,acqStamp,Beam loss
+/AwakeEventData/BLMITT41/Acquisition,alarmStatus,int16,40,40,0,2,acqStamp,Beam loss
+/AwakeEventData/BLMITT41/Acquisition,blrSignalStatus,int16,40,40,0,2,acqStamp,Beam loss
+/AwakeEventData/BLMITT41/Acquisition,calLosses,float32,40,40,0,2,acqStamp,Beam loss
+/AwakeEventData/BLMITT41/Acquisition,calLosses_unit,|S4,1,1,0,2,acqStamp,Beam loss
+/AwakeEventData/BLMITT41/Acquisition,calLosses_unitExponent,int32,1,1,0,2,acqStamp,Beam loss
+/AwakeEventData/BLMITT41/Acquisition,calThresholds,float32,40,40,0,2,acqStamp,Beam loss
+/AwakeEventData/BLMITT41/Acquisition,channelNames,|S15,15,15,0,2,acqStamp,Beam loss
+/AwakeEventData/BLMITT41/Acquisition,deviceName,|S5,1,1,0,2,acqStamp,Beam loss
+/AwakeEventData/BLMITT41/Acquisition,enableExtFlagBIC,int32,2,2,0,2,acqStamp,Beam loss
+/AwakeEventData/BLMITT41/Acquisition,measStamp,int32,1,1,0,2,acqStamp,Beam loss
+/AwakeEventData/BLMITT41/Acquisition,nbOfChannels,int32,1,1,0,2,acqStamp,Beam loss
+/AwakeEventData/BLMITT41/Acquisition,nbOfMeas,int32,1,1,0,2,acqStamp,Beam loss
+/AwakeEventData/BLMITT41/Acquisition,normLosses,float32,40,40,0,2,acqStamp,Beam loss
+/AwakeEventData/BLMITT41/Acquisition,observables,int64,1,1,0,2,acqStamp,Beam loss
+/AwakeEventData/BLMITT41/Acquisition,rawLosses,int16,40,40,0,2,acqStamp,Beam loss
+/AwakeEventData/BLMITT41/Acquisition,superCycleNb,int32,1,1,0,2,acqStamp,Beam loss
+/AwakeEventData/BLMITT41/Acquisition,totalGains,int32,5,5,0,2,acqStamp,Beam loss
+/AwakeEventData/BOVWA.01TCC4.CAM9/ExtractionImage,beamIntensity,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TCC4.CAM9/ExtractionImage,beamSize,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TCC4.CAM9/ExtractionImage,cogX,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TCC4.CAM9/ExtractionImage,cogY,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TCC4.CAM9/ExtractionImage,height,int32,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TCC4.CAM9/ExtractionImage,horProjAmp,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TCC4.CAM9/ExtractionImage,horProjAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TCC4.CAM9/ExtractionImage,horProjSigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TCC4.CAM9/ExtractionImage,horProjection,float64,1280,1280,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TCC4.CAM9/ExtractionImage,imageRawData,int16,1228800,960,1280,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TCC4.CAM9/ExtractionImage,imageTimeStamp,int64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TCC4.CAM9/ExtractionImage,intensityAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TCC4.CAM9/ExtractionImage,intensityHistogram,int32,1000,1000,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TCC4.CAM9/ExtractionImage,intensityRMS,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TCC4.CAM9/ExtractionImage,intensitySigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TCC4.CAM9/ExtractionImage,pixelSize,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TCC4.CAM9/ExtractionImage,verProjAmp,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TCC4.CAM9/ExtractionImage,verProjAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TCC4.CAM9/ExtractionImage,verProjSigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TCC4.CAM9/ExtractionImage,verProjection,float64,960,960,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TCC4.CAM9/ExtractionImage,width,int32,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TCC4.CAM9/PublishedSettings,delayTime,float64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.01TCC4.CAM9/PublishedSettings,exposureTime,float64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.01TCC4.CAM9/PublishedSettings,gain,int64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.01TCC4.CAM9/PublishedSettings,triggerMode,|S2,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.01TT41.CAM1/ExtractionImage,beamIntensity,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TT41.CAM1/ExtractionImage,beamSize,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TT41.CAM1/ExtractionImage,cogX,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TT41.CAM1/ExtractionImage,cogY,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TT41.CAM1/ExtractionImage,height,int32,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TT41.CAM1/ExtractionImage,horProjAmp,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TT41.CAM1/ExtractionImage,horProjAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TT41.CAM1/ExtractionImage,horProjSigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TT41.CAM1/ExtractionImage,horProjection,float64,1280,1280,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TT41.CAM1/ExtractionImage,imageRawData,int16,1310720,1024,1280,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TT41.CAM1/ExtractionImage,imageTimeStamp,int64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TT41.CAM1/ExtractionImage,intensityAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TT41.CAM1/ExtractionImage,intensityHistogram,int32,1000,1000,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TT41.CAM1/ExtractionImage,intensityRMS,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TT41.CAM1/ExtractionImage,intensitySigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TT41.CAM1/ExtractionImage,pixelSize,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TT41.CAM1/ExtractionImage,verProjAmp,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TT41.CAM1/ExtractionImage,verProjAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TT41.CAM1/ExtractionImage,verProjSigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TT41.CAM1/ExtractionImage,verProjection,float64,1024,1024,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TT41.CAM1/ExtractionImage,width,int32,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.01TT41.CAM1/PublishedSettings,delayTime,float64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.01TT41.CAM1/PublishedSettings,exposureTime,float64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.01TT41.CAM1/PublishedSettings,gain,int64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.01TT41.CAM1/PublishedSettings,triggerMode,|S2,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.02TCC4.CAM10/ExtractionImage,beamIntensity,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TCC4.CAM10/ExtractionImage,beamSize,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TCC4.CAM10/ExtractionImage,cogX,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TCC4.CAM10/ExtractionImage,cogY,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TCC4.CAM10/ExtractionImage,height,int32,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TCC4.CAM10/ExtractionImage,horProjAmp,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TCC4.CAM10/ExtractionImage,horProjAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TCC4.CAM10/ExtractionImage,horProjSigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TCC4.CAM10/ExtractionImage,horProjection,float64,1600,1600,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TCC4.CAM10/ExtractionImage,imageRawData,int16,1920000,1200,1600,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TCC4.CAM10/ExtractionImage,imageTimeStamp,int64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TCC4.CAM10/ExtractionImage,intensityAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TCC4.CAM10/ExtractionImage,intensityHistogram,int32,1000,1000,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TCC4.CAM10/ExtractionImage,intensityRMS,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TCC4.CAM10/ExtractionImage,intensitySigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TCC4.CAM10/ExtractionImage,pixelSize,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TCC4.CAM10/ExtractionImage,verProjAmp,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TCC4.CAM10/ExtractionImage,verProjAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TCC4.CAM10/ExtractionImage,verProjSigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TCC4.CAM10/ExtractionImage,verProjection,float64,1200,1200,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TCC4.CAM10/ExtractionImage,width,int32,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TCC4.CAM10/PublishedSettings,delayTime,float64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.02TCC4.CAM10/PublishedSettings,exposureTime,float64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.02TCC4.CAM10/PublishedSettings,gain,int64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.02TCC4.CAM10/PublishedSettings,triggerMode,|S2,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.02TT41.CAM2/ExtractionImage,beamIntensity,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TT41.CAM2/ExtractionImage,beamSize,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TT41.CAM2/ExtractionImage,cogX,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TT41.CAM2/ExtractionImage,cogY,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TT41.CAM2/ExtractionImage,height,int32,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TT41.CAM2/ExtractionImage,horProjAmp,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TT41.CAM2/ExtractionImage,horProjAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TT41.CAM2/ExtractionImage,horProjSigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TT41.CAM2/ExtractionImage,horProjection,float64,1282,1282,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TT41.CAM2/ExtractionImage,imageRawData,int16,1315332,1026,1282,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TT41.CAM2/ExtractionImage,imageTimeStamp,int64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TT41.CAM2/ExtractionImage,intensityAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TT41.CAM2/ExtractionImage,intensityHistogram,int32,1000,1000,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TT41.CAM2/ExtractionImage,intensityRMS,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TT41.CAM2/ExtractionImage,intensitySigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TT41.CAM2/ExtractionImage,pixelSize,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TT41.CAM2/ExtractionImage,verProjAmp,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TT41.CAM2/ExtractionImage,verProjAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TT41.CAM2/ExtractionImage,verProjSigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TT41.CAM2/ExtractionImage,verProjection,float64,1026,1026,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TT41.CAM2/ExtractionImage,width,int32,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.02TT41.CAM2/PublishedSettings,delayTime,float64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.02TT41.CAM2/PublishedSettings,exposureTime,float64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.02TT41.CAM2/PublishedSettings,gain,int64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.02TT41.CAM2/PublishedSettings,triggerMode,|S2,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.03TCC4.CAM11/ExtractionImage,beamIntensity,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TCC4.CAM11/ExtractionImage,beamSize,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TCC4.CAM11/ExtractionImage,cogX,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TCC4.CAM11/ExtractionImage,cogY,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TCC4.CAM11/ExtractionImage,height,int32,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TCC4.CAM11/ExtractionImage,horProjAmp,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TCC4.CAM11/ExtractionImage,horProjAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TCC4.CAM11/ExtractionImage,horProjSigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TCC4.CAM11/ExtractionImage,horProjection,float64,1280,1280,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TCC4.CAM11/ExtractionImage,imageRawData,int16,1310720,1024,1280,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TCC4.CAM11/ExtractionImage,imageTimeStamp,int64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TCC4.CAM11/ExtractionImage,intensityAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TCC4.CAM11/ExtractionImage,intensityHistogram,int32,1000,1000,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TCC4.CAM11/ExtractionImage,intensityRMS,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TCC4.CAM11/ExtractionImage,intensitySigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TCC4.CAM11/ExtractionImage,pixelSize,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TCC4.CAM11/ExtractionImage,verProjAmp,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TCC4.CAM11/ExtractionImage,verProjAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TCC4.CAM11/ExtractionImage,verProjSigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TCC4.CAM11/ExtractionImage,verProjection,float64,1024,1024,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TCC4.CAM11/ExtractionImage,width,int32,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TCC4.CAM11/PublishedSettings,delayTime,float64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.03TCC4.CAM11/PublishedSettings,exposureTime,float64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.03TCC4.CAM11/PublishedSettings,gain,int64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.03TCC4.CAM11/PublishedSettings,triggerMode,|S2,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.03TT41.CAM3/ExtractionImage,beamIntensity,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TT41.CAM3/ExtractionImage,beamSize,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TT41.CAM3/ExtractionImage,cogX,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TT41.CAM3/ExtractionImage,cogY,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TT41.CAM3/ExtractionImage,height,int32,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TT41.CAM3/ExtractionImage,horProjAmp,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TT41.CAM3/ExtractionImage,horProjAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TT41.CAM3/ExtractionImage,horProjSigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TT41.CAM3/ExtractionImage,horProjection,float64,1920,1920,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TT41.CAM3/ExtractionImage,imageRawData,int16,2304000,1200,1920,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TT41.CAM3/ExtractionImage,imageTimeStamp,int64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TT41.CAM3/ExtractionImage,intensityAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TT41.CAM3/ExtractionImage,intensityHistogram,int32,1000,1000,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TT41.CAM3/ExtractionImage,intensityRMS,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TT41.CAM3/ExtractionImage,intensitySigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TT41.CAM3/ExtractionImage,pixelSize,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TT41.CAM3/ExtractionImage,verProjAmp,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TT41.CAM3/ExtractionImage,verProjAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TT41.CAM3/ExtractionImage,verProjSigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TT41.CAM3/ExtractionImage,verProjection,float64,1200,1200,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TT41.CAM3/ExtractionImage,width,int32,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.03TT41.CAM3/PublishedSettings,delayTime,float64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.03TT41.CAM3/PublishedSettings,exposureTime,float64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.03TT41.CAM3/PublishedSettings,gain,int64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.03TT41.CAM3/PublishedSettings,triggerMode,|S2,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.04TCC4.CAM12/ExtractionImage,beamIntensity,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TCC4.CAM12/ExtractionImage,beamSize,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TCC4.CAM12/ExtractionImage,cogX,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TCC4.CAM12/ExtractionImage,cogY,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TCC4.CAM12/ExtractionImage,height,int32,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TCC4.CAM12/ExtractionImage,horProjAmp,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TCC4.CAM12/ExtractionImage,horProjAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TCC4.CAM12/ExtractionImage,horProjSigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TCC4.CAM12/ExtractionImage,horProjection,float64,1600,1600,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TCC4.CAM12/ExtractionImage,imageRawData,int16,1920000,1200,1600,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TCC4.CAM12/ExtractionImage,imageTimeStamp,int64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TCC4.CAM12/ExtractionImage,intensityAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TCC4.CAM12/ExtractionImage,intensityHistogram,int32,1000,1000,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TCC4.CAM12/ExtractionImage,intensityRMS,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TCC4.CAM12/ExtractionImage,intensitySigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TCC4.CAM12/ExtractionImage,pixelSize,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TCC4.CAM12/ExtractionImage,verProjAmp,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TCC4.CAM12/ExtractionImage,verProjAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TCC4.CAM12/ExtractionImage,verProjSigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TCC4.CAM12/ExtractionImage,verProjection,float64,1200,1200,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TCC4.CAM12/ExtractionImage,width,int32,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TCC4.CAM12/PublishedSettings,delayTime,float64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.04TCC4.CAM12/PublishedSettings,exposureTime,float64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.04TCC4.CAM12/PublishedSettings,gain,int64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.04TCC4.CAM12/PublishedSettings,triggerMode,|S2,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.04TT41.CAM4/ExtractionImage,beamIntensity,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TT41.CAM4/ExtractionImage,beamSize,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TT41.CAM4/ExtractionImage,cogX,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TT41.CAM4/ExtractionImage,cogY,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TT41.CAM4/ExtractionImage,height,int32,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TT41.CAM4/ExtractionImage,horProjAmp,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TT41.CAM4/ExtractionImage,horProjAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TT41.CAM4/ExtractionImage,horProjSigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TT41.CAM4/ExtractionImage,horProjection,float64,1920,1920,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TT41.CAM4/ExtractionImage,imageRawData,int16,2304000,1200,1920,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TT41.CAM4/ExtractionImage,imageTimeStamp,int64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TT41.CAM4/ExtractionImage,intensityAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TT41.CAM4/ExtractionImage,intensityHistogram,int32,1000,1000,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TT41.CAM4/ExtractionImage,intensityRMS,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TT41.CAM4/ExtractionImage,intensitySigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TT41.CAM4/ExtractionImage,pixelSize,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TT41.CAM4/ExtractionImage,verProjAmp,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TT41.CAM4/ExtractionImage,verProjAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TT41.CAM4/ExtractionImage,verProjSigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TT41.CAM4/ExtractionImage,verProjection,float64,1200,1200,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TT41.CAM4/ExtractionImage,width,int32,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.04TT41.CAM4/PublishedSettings,delayTime,float64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.04TT41.CAM4/PublishedSettings,exposureTime,float64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.04TT41.CAM4/PublishedSettings,gain,int64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.04TT41.CAM4/PublishedSettings,triggerMode,|S2,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.05TT41.CAM5/ExtractionImage,beamIntensity,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.05TT41.CAM5/ExtractionImage,beamSize,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.05TT41.CAM5/ExtractionImage,cogX,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.05TT41.CAM5/ExtractionImage,cogY,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.05TT41.CAM5/ExtractionImage,height,int32,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.05TT41.CAM5/ExtractionImage,horProjAmp,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.05TT41.CAM5/ExtractionImage,horProjAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.05TT41.CAM5/ExtractionImage,horProjSigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.05TT41.CAM5/ExtractionImage,horProjection,float64,1920,1920,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.05TT41.CAM5/ExtractionImage,imageRawData,int16,2304000,1200,1920,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.05TT41.CAM5/ExtractionImage,imageTimeStamp,int64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.05TT41.CAM5/ExtractionImage,intensityAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.05TT41.CAM5/ExtractionImage,intensityHistogram,int32,1000,1000,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.05TT41.CAM5/ExtractionImage,intensityRMS,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.05TT41.CAM5/ExtractionImage,intensitySigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.05TT41.CAM5/ExtractionImage,pixelSize,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.05TT41.CAM5/ExtractionImage,verProjAmp,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.05TT41.CAM5/ExtractionImage,verProjAvg,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.05TT41.CAM5/ExtractionImage,verProjSigma,float64,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.05TT41.CAM5/ExtractionImage,verProjection,float64,1200,1200,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.05TT41.CAM5/ExtractionImage,width,int32,1,1,0,2,imageTimeStamp,Beam image
+/AwakeEventData/BOVWA.05TT41.CAM5/PublishedSettings,delayTime,float64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.05TT41.CAM5/PublishedSettings,exposureTime,float64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.05TT41.CAM5/PublishedSettings,gain,int64,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BOVWA.05TT41.CAM5/PublishedSettings,triggerMode,|S2,1,1,0,2,acqStamp,Camera exposure and delay
+/AwakeEventData/BPM.AWAKE.TT41/Acquisition,bpmNames,|S15,32,32,0,2,acqStamp,Beam position
+/AwakeEventData/BPM.AWAKE.TT41/Acquisition,dynDestination,|S5,1,1,0,2,acqStamp,Beam position
+/AwakeEventData/BPM.AWAKE.TT41/Acquisition,horPosOk,None,0,None,None,2,acqStamp,Beam position
+/AwakeEventData/BPM.AWAKE.TT41/Acquisition,horPosition,float32,32,32,0,2,acqStamp,Beam position
+/AwakeEventData/BPM.AWAKE.TT41/Acquisition,nbOfBpms,int16,1,1,0,2,acqStamp,Beam position
+/AwakeEventData/BPM.AWAKE.TT41/Acquisition,verPosOk,None,0,None,None,2,acqStamp,Beam position
+/AwakeEventData/BPM.AWAKE.TT41/Acquisition,verPosition,float32,32,32,0,2,acqStamp,Beam position
+/AwakeEventData/BTV.TT41.412426_FWHEEL/Acquisition,position,int32,1,1,0,0,acqStamp,Filter position
+/AwakeEventData/BTV.TT41.412426_MASK_H/Acquisition,position,int32,1,1,0,0,acqStamp,Mask position
+/AwakeEventData/BTV.TT41.412426_MASK_V/Acquisition,position,int32,1,1,0,0,acqStamp,Mask position
+/AwakeEventData/BTV.TT41.412442_FWHEEL/Acquisition,position,int32,1,1,0,0,acqStamp,Filter position
+/AwakeEventData/BTV.TT41.412442_MASK_H/Acquisition,position,int32,1,1,0,0,acqStamp,Mask position
+/AwakeEventData/BTV.TT41.412442_MASK_V/Acquisition,position,int32,1,1,0,0,acqStamp,Mask position
+/AwakeEventData/EMETER02/Acq,outOfRange,bool,1,None,None,2,acqStamp,Laser energy in J
+/AwakeEventData/EMETER02/Acq,value,float32,1,1,0,2,acqStamp,Laser energy in J
+/AwakeEventData/EMETER02/Acq,value_units,|S1,1,1,0,2,acqStamp,Laser energy in J
+/AwakeEventData/EMETER03/Acq,outOfRange,bool,1,None,None,2,acqStamp,Laser energy meter
+/AwakeEventData/EMETER03/Acq,value,float32,1,1,0,2,acqStamp,Laser energy meter
+/AwakeEventData/EMETER03/Acq,value_units,|S1,1,1,0,2,acqStamp,Laser energy meter
+/AwakeEventData/EMETER04/Acq,outOfRange,bool,1,None,None,2,acqStamp,Laser energy meter
+/AwakeEventData/EMETER04/Acq,value,float32,1,1,0,2,acqStamp,Laser energy meter
+/AwakeEventData/EMETER04/Acq,value_units,|S1,1,1,0,2,acqStamp,Laser energy meter
+/AwakeEventData/FWHEEL01/Acq,backWheelPositionDescription,|S6,1,1,0,2,acqStamp,TCC4 Fliter Wheel for Virtual Laser LIne
+/AwakeEventData/FWHEEL01/Acq,frontWheelPositionDescription,|S6,1,1,0,2,acqStamp,TCC4 Fliter Wheel for Virtual Laser LIne
+/AwakeEventData/FWHEEL01/Acq,status,|S7,1,1,0,2,acqStamp,TCC4 Fliter Wheel for Virtual Laser LIne
+/AwakeEventData/LSSP2/Acq,position,|S3,1,1,0,0,acqStamp,Laser shutter
+/AwakeEventData/MPPAWAKE-STANDA-08.AXIS01/Movement,leftLimitSwitchReached,bool,1,None,None,0,acqStamp,TSG41 OTR Flipper
+/AwakeEventData/MPPAWAKE-STANDA-08.AXIS01/Movement,position,float32,1,1,0,0,acqStamp,TSG41 OTR Flipper
+/AwakeEventData/MPPAWAKE-STANDA-08.AXIS01/Movement,rightLimitSwitchReached,bool,1,None,None,0,acqStamp,TSG41 OTR Flipper
+/AwakeEventData/MPPAWAKE-STANDA-08.AXIS02/Movement,leftLimitSwitchReached,bool,1,None,None,0,acqStamp,TSG41 CTR Flipper 1
+/AwakeEventData/MPPAWAKE-STANDA-08.AXIS02/Movement,position,float32,1,1,0,0,acqStamp,TSG41 CTR Flipper 1
+/AwakeEventData/MPPAWAKE-STANDA-08.AXIS02/Movement,rightLimitSwitchReached,bool,1,None,None,0,acqStamp,TSG41 CTR Flipper 1
+/AwakeEventData/MPPAWAKE-STANDA-08.AXIS05/Movement,leftLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 CTR Translator 1
+/AwakeEventData/MPPAWAKE-STANDA-08.AXIS05/Movement,position,float32,1,1,0,0,acqStamp,TT41 CTR Translator 1
+/AwakeEventData/MPPAWAKE-STANDA-08.AXIS05/Movement,rightLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 CTR Translator 1
+/AwakeEventData/MPPAWAKE-STANDA-08.AXIS06/Movement,leftLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 CTR Translator 2
+/AwakeEventData/MPPAWAKE-STANDA-08.AXIS06/Movement,position,float32,1,1,0,0,acqStamp,TT41 CTR Translator 2
+/AwakeEventData/MPPAWAKE-STANDA-08.AXIS06/Movement,rightLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 CTR Translator 2
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS01/Movement,leftLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 CTR Shutter
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS01/Movement,position,float32,1,1,0,0,acqStamp,TT41 CTR Shutter
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS01/Movement,rightLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 CTR Shutter
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS02/Movement,leftLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 CTR Attenuator 1
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS02/Movement,position,float32,1,1,0,0,acqStamp,TT41 CTR Attenuator 1
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS02/Movement,rightLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 CTR Attenuator 1
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS03/Movement,leftLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 CTR Attenuator 2
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS03/Movement,position,float32,1,1,0,0,acqStamp,TT41 CTR Attenuator 2
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS03/Movement,rightLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 CTR Attenuator 2
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS04/Movement,leftLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 CTR Attenuator 3
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS04/Movement,position,float32,1,1,0,0,acqStamp,TT41 CTR Attenuator 3
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS04/Movement,rightLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 CTR Attenuator 3
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS05/Movement,leftLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 CTR RF Wheel
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS05/Movement,position,float32,1,1,0,0,acqStamp,TT41 CTR RF Wheel
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS05/Movement,rightLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 CTR RF Wheel
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS06/Movement,leftLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 OTR Flipper
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS06/Movement,position,float32,1,1,0,0,acqStamp,TT41 OTR Flipper
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS06/Movement,rightLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 OTR Flipper
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS07/Movement,leftLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 OTR Diag Mirror H
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS07/Movement,position,float32,1,1,0,0,acqStamp,TT41 OTR Diag Mirror H
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS07/Movement,rightLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 OTR Diag Mirror H
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS08/Movement,leftLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 OTR Diag Mirror V
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS08/Movement,position,float32,1,1,0,0,acqStamp,TT41 OTR Diag Mirror V
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS08/Movement,rightLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 OTR Diag Mirror V
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS09/Movement,leftLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 Rb Upstream Flipper 1
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS09/Movement,position,float32,1,1,0,0,acqStamp,TT41 Rb Upstream Flipper 1
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS09/Movement,rightLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 Rb Upstream Flipper 1
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS10/Movement,leftLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 Rb Upstream Flipper 2
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS10/Movement,position,float32,1,1,0,0,acqStamp,TT41 Rb Upstream Flipper 2
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS10/Movement,rightLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 Rb Upstream Flipper 2
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS11/Movement,leftLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 Rb Downstream Flipper 1
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS11/Movement,position,float32,1,1,0,0,acqStamp,TT41 Rb Downstream Flipper 1
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS11/Movement,rightLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 Rb Downstream Flipper 1
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS12/Movement,leftLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 Rb Downstream Flipper 2
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS12/Movement,position,float32,1,1,0,0,acqStamp,TT41 Rb Downstream Flipper 2
+/AwakeEventData/MPPAWAKE-STANDA-12.AXIS12/Movement,rightLimitSwitchReached,bool,1,None,None,0,acqStamp,TT41 Rb Downstream Flipper 2
+/AwakeEventData/PMOTOR01/Acquisition,position,int32,1,1,0,0,acqStamp,horizontal MP5
+/AwakeEventData/PMOTOR02/Acquisition,position,int32,1,1,0,0,acqStamp,vertical MP5
+/AwakeEventData/PMOTOR03/Acquisition,position,int32,1,1,0,0,acqStamp,horizontal MP4
+/AwakeEventData/PMOTOR04/Acquisition,position,int32,1,1,0,0,acqStamp,vertical MP4
+/AwakeEventData/PMOTOR05/Acquisition,position,int32,1,1,0,0,acqStamp,horizontal MP3
+/AwakeEventData/PMOTOR06/Acquisition,position,int32,1,1,0,0,acqStamp,vertical MP3
+/AwakeEventData/PMOTOR13/Acquisition,position,int32,1,1,0,0,acqStamp,vertical MP2
+/AwakeEventData/PMOTOR14/Acquisition,position,int32,1,1,0,0,acqStamp,horizontal MP2
+/AwakeEventData/PMOTOR15/Acquisition,position,int32,1,1,0,0,acqStamp,horizontal MP1
+/AwakeEventData/PMOTOR16/Acquisition,position,int32,1,1,0,0,acqStamp,vertical MP1
+/AwakeEventData/Plunger.412401/StartCounterSt,value,int64,1,1,0,0,acqStamp,Plunger counter
+/AwakeEventData/Plunger.412401/State,value,int16,1,1,0,0,acqStamp,Plunger state
+/AwakeEventData/Plunger.412422/StartCounterSt,value,int64,1,1,0,0,acqStamp,Plunger counter
+/AwakeEventData/Plunger.412422/State,value,int16,1,1,0,0,acqStamp,Plunger state
+/AwakeEventData/SPSBQMSPSv1/Acquisition,beamOk,bool,1,None,None,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bqmOutputEnable,bool,1,None,None,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchIntensities,float32,288,288,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchIntensityMax,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchIntensityMaxThr,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchIntensityMean,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchIntensityMin,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchIntensityMinThr,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchIntensityModIndex,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchIntensityModIndexOk,bool,1,None,None,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchIntensityModIndexThr,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchIntensityOk,bool,1,None,None,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchIntensityStd,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchLengthMax,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchLengthMaxThr,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchLengthMean,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchLengthMin,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchLengthMinThr,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchLengthOk,bool,1,None,None,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchLengthStd,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchLengthStdOk,bool,1,None,None,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchLengthStdThr,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchLengths,float32,288,288,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchPeakMax,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchPeakMaxThr,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchPeakMean,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchPeakMin,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchPeakMinThr,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchPeakOk,bool,1,None,None,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchPeakStd,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchPeakStdOk,bool,1,None,None,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchPeakStdThr,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchPeaks,float32,288,288,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,bunchPositions,float32,288,288,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,diagnostic,int16,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,doubletIntensitySplitOk,bool,1,None,None,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,doublets,bool,1,None,None,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,filledBuckets,int32,288,288,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,firstBunchPositionOk,bool,1,None,None,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,isTrailingDoublet,None,0,None,None,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,nAllowedLongBunches,int16,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,nBunches,int32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,nBunchesMax,int16,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,nBunchesMaxOk,bool,1,None,None,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,nBunchesRamp,int32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,nSatellitesIntensity,int32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,nSatellitesMidBucket,int32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,nTooLongBunches,int16,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,nWarningMessages,int16,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,oscillationPercentDeltaMax,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,oscillationPercentDeltaMaxThr,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,oscillationPercentDeltas,float32,288,288,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,oscillationPercentPeakMax,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,oscillationPercentPeakMaxThr,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,patternOk,bool,1,None,None,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,satelliteBucketsIntensity,float32,4620,4620,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,satelliteBucketsMid,float32,4620,4620,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,satellitesIntensityThr,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,satellitesMidBucketThr,float32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,satellitesOk,bool,1,None,None,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,stabilityOk,bool,1,None,None,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,tgmNLSQCTL,bool,1,None,None,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,tgmSCNUM,int32,1,1,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,verifyPattern,bool,1,None,None,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,warningMessages,|S32,50,50,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/Acquisition,wrongBuckets,int32,288,288,0,2,acqStamp,SPS BQM - Many fields
+/AwakeEventData/SPSBQMSPSv1/RawWavesFTAcquisition,rawWaveFT,int16,80000,80000,0,0,acqStamp,SPS longitudinal bunch waveform
+/AwakeEventData/SR.SCOPE27.CH01/Acquisition,CTime,int32,1,1,0,2,triggerStamp,Schottky Diode WR08
+/AwakeEventData/SR.SCOPE27.CH01/Acquisition,cycleTag,int32,1,1,0,2,triggerStamp,Schottky Diode WR08
+/AwakeEventData/SR.SCOPE27.CH01/Acquisition,diffStamps,int64,1,1,0,2,triggerStamp,Schottky Diode WR08
+/AwakeEventData/SR.SCOPE27.CH01/Acquisition,firstSampleTime,float32,1,1,0,2,triggerStamp,Schottky Diode WR08
+/AwakeEventData/SR.SCOPE27.CH01/Acquisition,offset,float32,1,1,0,2,triggerStamp,Schottky Diode WR08
+/AwakeEventData/SR.SCOPE27.CH01/Acquisition,sampleInterval,float32,1,1,0,2,triggerStamp,Schottky Diode WR08
+/AwakeEventData/SR.SCOPE27.CH01/Acquisition,sensitivity,float32,1,1,0,2,triggerStamp,Schottky Diode WR08
+/AwakeEventData/SR.SCOPE27.CH01/Acquisition,triggerError,float32,1,1,0,2,triggerStamp,Schottky Diode WR08
+/AwakeEventData/SR.SCOPE27.CH01/Acquisition,triggerStamp,int64,1,1,0,2,triggerStamp,Schottky Diode WR08
+/AwakeEventData/SR.SCOPE27.CH01/Acquisition,value,int16,200,1,200,2,triggerStamp,Schottky Diode WR08
+/AwakeEventData/SR.SCOPE27.CH01/Acquisition,value_units,|S1,1,1,0,2,triggerStamp,Schottky Diode WR08
+/AwakeEventData/SR.SCOPE28.CH01/Acquisition,CTime,int32,1,1,0,2,triggerStamp,Schottky Diode WR05
+/AwakeEventData/SR.SCOPE28.CH01/Acquisition,cycleTag,int32,1,1,0,2,triggerStamp,Schottky Diode WR05
+/AwakeEventData/SR.SCOPE28.CH01/Acquisition,diffStamps,int64,1,1,0,2,triggerStamp,Schottky Diode WR05
+/AwakeEventData/SR.SCOPE28.CH01/Acquisition,firstSampleTime,float32,1,1,0,2,triggerStamp,Schottky Diode WR05
+/AwakeEventData/SR.SCOPE28.CH01/Acquisition,offset,float32,1,1,0,2,triggerStamp,Schottky Diode WR05
+/AwakeEventData/SR.SCOPE28.CH01/Acquisition,sampleInterval,float32,1,1,0,2,triggerStamp,Schottky Diode WR05
+/AwakeEventData/SR.SCOPE28.CH01/Acquisition,sensitivity,float32,1,1,0,2,triggerStamp,Schottky Diode WR05
+/AwakeEventData/SR.SCOPE28.CH01/Acquisition,triggerError,float32,1,1,0,2,triggerStamp,Schottky Diode WR05
+/AwakeEventData/SR.SCOPE28.CH01/Acquisition,triggerStamp,int64,1,1,0,2,triggerStamp,Schottky Diode WR05
+/AwakeEventData/SR.SCOPE28.CH01/Acquisition,value,int16,200,1,200,2,triggerStamp,Schottky Diode WR05
+/AwakeEventData/SR.SCOPE28.CH01/Acquisition,value_units,|S1,1,1,0,2,triggerStamp,Schottky Diode WR05
+/AwakeEventData/SR.SCOPE29.CH01/Acquisition,CTime,int32,1,1,0,2,triggerStamp,Schottky Diode WR03
+/AwakeEventData/SR.SCOPE29.CH01/Acquisition,cycleTag,int32,1,1,0,2,triggerStamp,Schottky Diode WR03
+/AwakeEventData/SR.SCOPE29.CH01/Acquisition,diffStamps,int64,1,1,0,2,triggerStamp,Schottky Diode WR03
+/AwakeEventData/SR.SCOPE29.CH01/Acquisition,firstSampleTime,float32,1,1,0,2,triggerStamp,Schottky Diode WR03
+/AwakeEventData/SR.SCOPE29.CH01/Acquisition,offset,float32,1,1,0,2,triggerStamp,Schottky Diode WR03
+/AwakeEventData/SR.SCOPE29.CH01/Acquisition,sampleInterval,float32,1,1,0,2,triggerStamp,Schottky Diode WR03
+/AwakeEventData/SR.SCOPE29.CH01/Acquisition,sensitivity,float32,1,1,0,2,triggerStamp,Schottky Diode WR03
+/AwakeEventData/SR.SCOPE29.CH01/Acquisition,triggerError,float32,1,1,0,2,triggerStamp,Schottky Diode WR03
+/AwakeEventData/SR.SCOPE29.CH01/Acquisition,triggerStamp,int64,1,1,0,2,triggerStamp,Schottky Diode WR03
+/AwakeEventData/SR.SCOPE29.CH01/Acquisition,value,int16,200,1,200,2,triggerStamp,Schottky Diode WR03
+/AwakeEventData/SR.SCOPE29.CH01/Acquisition,value_units,|S1,1,1,0,2,triggerStamp,Schottky Diode WR03
+/AwakeEventData/SR.SCOPE30.CH01/Acquisition,CTime,int32,1,1,0,2,triggerStamp,Laser Photodiode
+/AwakeEventData/SR.SCOPE30.CH01/Acquisition,cycleTag,int32,1,1,0,2,triggerStamp,Laser Photodiode
+/AwakeEventData/SR.SCOPE30.CH01/Acquisition,diffStamps,int64,1,1,0,2,triggerStamp,Laser Photodiode
+/AwakeEventData/SR.SCOPE30.CH01/Acquisition,firstSampleTime,float32,1,1,0,2,triggerStamp,Laser Photodiode
+/AwakeEventData/SR.SCOPE30.CH01/Acquisition,offset,float32,1,1,0,2,triggerStamp,Laser Photodiode
+/AwakeEventData/SR.SCOPE30.CH01/Acquisition,sampleInterval,float32,1,1,0,2,triggerStamp,Laser Photodiode
+/AwakeEventData/SR.SCOPE30.CH01/Acquisition,sensitivity,float32,1,1,0,2,triggerStamp,Laser Photodiode
+/AwakeEventData/SR.SCOPE30.CH01/Acquisition,triggerError,float32,1,1,0,2,triggerStamp,Laser Photodiode
+/AwakeEventData/SR.SCOPE30.CH01/Acquisition,triggerStamp,int64,1,1,0,2,triggerStamp,Laser Photodiode
+/AwakeEventData/SR.SCOPE30.CH01/Acquisition,value,int16,800,1,800,2,triggerStamp,Laser Photodiode
+/AwakeEventData/SR.SCOPE30.CH01/Acquisition,value_units,|S1,1,1,0,2,triggerStamp,Laser Photodiode
+/AwakeEventData/SR.SCOPE30.CH02/Acquisition,CTime,int32,1,1,0,2,triggerStamp,OTR TCC4 Photodiode
+/AwakeEventData/SR.SCOPE30.CH02/Acquisition,cycleTag,int32,1,1,0,2,triggerStamp,OTR TCC4 Photodiode
+/AwakeEventData/SR.SCOPE30.CH02/Acquisition,diffStamps,int64,1,1,0,2,triggerStamp,OTR TCC4 Photodiode
+/AwakeEventData/SR.SCOPE30.CH02/Acquisition,firstSampleTime,float32,1,1,0,2,triggerStamp,OTR TCC4 Photodiode
+/AwakeEventData/SR.SCOPE30.CH02/Acquisition,offset,float32,1,1,0,2,triggerStamp,OTR TCC4 Photodiode
+/AwakeEventData/SR.SCOPE30.CH02/Acquisition,sampleInterval,float32,1,1,0,2,triggerStamp,OTR TCC4 Photodiode
+/AwakeEventData/SR.SCOPE30.CH02/Acquisition,sensitivity,float32,1,1,0,2,triggerStamp,OTR TCC4 Photodiode
+/AwakeEventData/SR.SCOPE30.CH02/Acquisition,triggerError,float32,1,1,0,2,triggerStamp,OTR TCC4 Photodiode
+/AwakeEventData/SR.SCOPE30.CH02/Acquisition,triggerStamp,int64,1,1,0,2,triggerStamp,OTR TCC4 Photodiode
+/AwakeEventData/SR.SCOPE30.CH02/Acquisition,value,int16,800,1,800,2,triggerStamp,OTR TCC4 Photodiode
+/AwakeEventData/SR.SCOPE30.CH02/Acquisition,value_units,|S1,1,1,0,2,triggerStamp,OTR TCC4 Photodiode
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH1/FileRead,channelRead,int32,1,1,0,2,fileTime,Fast scope ch1
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH1/FileRead,dataAcquisitionTime,int64,1,1,0,2,fileTime,Fast scope ch1
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH1/FileRead,dataAxis,float64,5000,5000,0,2,fileTime,Fast scope ch1
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH1/FileRead,dataValue,float64,5000,5000,0,2,fileTime,Fast scope ch1
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH1/FileRead,fileCount,int32,1,1,0,2,fileTime,Fast scope ch1
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH1/FileRead,fileName,|S29,1,1,0,2,fileTime,Fast scope ch1
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH1/FileRead,fileReadDelay,int64,1,1,0,2,fileTime,Fast scope ch1
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH1/FileRead,fileTime,int64,1,1,0,2,fileTime,Fast scope ch1
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH1/FileRead,headerName,|S17,100,100,0,2,fileTime,Fast scope ch1
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH1/FileRead,headerValue,|S16,100,100,0,2,fileTime,Fast scope ch1
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH1/FileRead,rawFile,|S186401,1,1,0,2,fileTime,Fast scope ch1
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH2/FileRead,channelRead,int32,1,1,0,2,fileTime,Fast scope ch2
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH2/FileRead,dataAcquisitionTime,int64,1,1,0,2,fileTime,Fast scope ch2
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH2/FileRead,dataAxis,float64,5000,5000,0,2,fileTime,Fast scope ch2
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH2/FileRead,dataValue,float64,5000,5000,0,2,fileTime,Fast scope ch2
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH2/FileRead,fileCount,int32,1,1,0,2,fileTime,Fast scope ch2
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH2/FileRead,fileName,|S29,1,1,0,2,fileTime,Fast scope ch2
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH2/FileRead,fileReadDelay,int64,1,1,0,2,fileTime,Fast scope ch2
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH2/FileRead,fileTime,int64,1,1,0,2,fileTime,Fast scope ch2
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH2/FileRead,headerName,|S17,100,100,0,2,fileTime,Fast scope ch2
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH2/FileRead,headerValue,|S16,100,100,0,2,fileTime,Fast scope ch2
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH2/FileRead,rawFile,|S183036,1,1,0,2,fileTime,Fast scope ch2
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH3/FileRead,channelRead,int32,1,1,0,2,fileTime,Fast scope ch3
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH3/FileRead,dataAcquisitionTime,int64,1,1,0,2,fileTime,Fast scope ch3
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH3/FileRead,dataAxis,float64,5000,5000,0,2,fileTime,Fast scope ch3
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH3/FileRead,dataValue,float64,5000,5000,0,2,fileTime,Fast scope ch3
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH3/FileRead,fileCount,int32,1,1,0,2,fileTime,Fast scope ch3
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH3/FileRead,fileName,|S28,1,1,0,2,fileTime,Fast scope ch3
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH3/FileRead,fileReadDelay,int64,1,1,0,2,fileTime,Fast scope ch3
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH3/FileRead,fileTime,int64,1,1,0,2,fileTime,Fast scope ch3
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH3/FileRead,headerName,|S17,100,100,0,2,fileTime,Fast scope ch3
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH3/FileRead,headerValue,|S16,100,100,0,2,fileTime,Fast scope ch3
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH3/FileRead,rawFile,|S185090,1,1,0,2,fileTime,Fast scope ch3
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH4/FileRead,channelRead,int32,1,1,0,2,fileTime,Fast scope ch4
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH4/FileRead,dataAcquisitionTime,int64,1,1,0,2,fileTime,Fast scope ch4
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH4/FileRead,dataAxis,float64,5000,5000,0,2,fileTime,Fast scope ch4
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH4/FileRead,dataValue,float64,5000,5000,0,2,fileTime,Fast scope ch4
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH4/FileRead,fileCount,int32,1,1,0,2,fileTime,Fast scope ch4
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH4/FileRead,fileName,|S28,1,1,0,2,fileTime,Fast scope ch4
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH4/FileRead,fileReadDelay,int64,1,1,0,2,fileTime,Fast scope ch4
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH4/FileRead,fileTime,int64,1,1,0,2,fileTime,Fast scope ch4
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH4/FileRead,headerName,|S17,100,100,0,2,fileTime,Fast scope ch4
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH4/FileRead,headerValue,|S16,100,100,0,2,fileTime,Fast scope ch4
+/AwakeEventData/TCC4.AWAKE-SCOPE-CTR.CH4/FileRead,rawFile,|S186835,1,1,0,2,fileTime,Fast scope ch4
+/AwakeEventData/TSG40.AWAKE-LASER-CORRELATOR/FileRead,dataAcquisitionTime,int64,1,1,0,2,fileTime,Laser pulse length
+/AwakeEventData/TSG40.AWAKE-LASER-CORRELATOR/FileRead,dataAmplitude,float64,768,768,0,2,fileTime,Laser pulse length
+/AwakeEventData/TSG40.AWAKE-LASER-CORRELATOR/FileRead,dataDelay,float64,768,768,0,2,fileTime,Laser pulse length
+/AwakeEventData/TSG40.AWAKE-LASER-CORRELATOR/FileRead,dataImage,int16,442368,768,576,2,fileTime,Laser pulse length
+/AwakeEventData/TSG40.AWAKE-LASER-CORRELATOR/FileRead,fileCount,int32,1,1,0,2,fileTime,Laser pulse length
+/AwakeEventData/TSG40.AWAKE-LASER-CORRELATOR/FileRead,fileName,|S16,1,1,0,2,fileTime,Laser pulse length
+/AwakeEventData/TSG40.AWAKE-LASER-CORRELATOR/FileRead,fileTime,int64,1,1,0,2,fileTime,Laser pulse length
+/AwakeEventData/TSG40.AWAKE-LASER-CORRELATOR/FileRead,fittedAmplitude,float64,768,768,0,2,fileTime,Laser pulse length
+/AwakeEventData/TSG40.AWAKE-LASER-CORRELATOR/FileRead,pulseWidth,float64,1,1,0,2,fileTime,Laser pulse length
+/AwakeEventData/TSG41.AWAKE-CTRHET-VDI/FileRead,dataAcquisitionTime,int64,1,1,0,2,fileTime,CTR VDI
+/AwakeEventData/TSG41.AWAKE-CTRHET-VDI/FileRead,fileCount,int32,1,1,0,2,fileTime,CTR VDI
+/AwakeEventData/TSG41.AWAKE-CTRHET-VDI/FileRead,fileName,|S21,1,1,0,2,fileTime,CTR VDI
+/AwakeEventData/TSG41.AWAKE-CTRHET-VDI/FileRead,fileReadDelay,int64,1,1,0,2,fileTime,CTR VDI
+/AwakeEventData/TSG41.AWAKE-CTRHET-VDI/FileRead,fileTime,int64,1,1,0,2,fileTime,CTR VDI
+/AwakeEventData/TSG41.AWAKE-CTRHET-VDI/FileRead,floatValue,float64,1,1,0,2,fileTime,CTR VDI
+/AwakeEventData/TSG41.AWAKE-CTRHET-VDI/FileRead,integerValue,int64,1,1,0,2,fileTime,CTR VDI
+/AwakeEventData/TSG41.AWAKE-CTRHET-VDI/FileRead,stringValue,|S5,1,1,0,2,fileTime,CTR VDI
+/AwakeEventData/TSG41.AWAKE-CTRHET-WR8/FileRead,dataAcquisitionTime,int64,1,1,0,2,fileTime,CTR WR8
+/AwakeEventData/TSG41.AWAKE-CTRHET-WR8/FileRead,fileCount,int32,1,1,0,2,fileTime,CTR WR8
+/AwakeEventData/TSG41.AWAKE-CTRHET-WR8/FileRead,fileName,|S52,1,1,0,2,fileTime,CTR WR8
+/AwakeEventData/TSG41.AWAKE-CTRHET-WR8/FileRead,fileReadDelay,int64,1,1,0,2,fileTime,CTR WR8
+/AwakeEventData/TSG41.AWAKE-CTRHET-WR8/FileRead,fileTime,int64,1,1,0,2,fileTime,CTR WR8
+/AwakeEventData/TSG41.AWAKE-CTRHET-WR8/FileRead,floatValue,float64,1,1,0,2,fileTime,CTR WR8
+/AwakeEventData/TSG41.AWAKE-CTRHET-WR8/FileRead,integerValue,int64,1,1,0,2,fileTime,CTR WR8
+/AwakeEventData/TSG41.AWAKE-CTRHET-WR8/FileRead,stringValue,|S18,1,1,0,2,fileTime,CTR WR8
+/AwakeEventData/TT41.AWAKE-PLASMA-SPECTRO-DOWN/FileRead,dataAcquisitionTime,int64,1,1,0,2,fileTime,Downstream Rb spectrometer
+/AwakeEventData/TT41.AWAKE-PLASMA-SPECTRO-DOWN/FileRead,dataAxis,float64,3648,3648,0,2,fileTime,Downstream Rb spectrometer
+/AwakeEventData/TT41.AWAKE-PLASMA-SPECTRO-DOWN/FileRead,dataValue,float64,3648,3648,0,2,fileTime,Downstream Rb spectrometer
+/AwakeEventData/TT41.AWAKE-PLASMA-SPECTRO-DOWN/FileRead,fileCount,int32,1,1,0,2,fileTime,Downstream Rb spectrometer
+/AwakeEventData/TT41.AWAKE-PLASMA-SPECTRO-DOWN/FileRead,fileName,|S56,1,1,0,2,fileTime,Downstream Rb spectrometer
+/AwakeEventData/TT41.AWAKE-PLASMA-SPECTRO-DOWN/FileRead,fileReadDelay,int64,1,1,0,2,fileTime,Downstream Rb spectrometer
+/AwakeEventData/TT41.AWAKE-PLASMA-SPECTRO-DOWN/FileRead,fileTime,int64,1,1,0,2,fileTime,Downstream Rb spectrometer
+/AwakeEventData/TT41.AWAKE-PLASMA-SPECTRO-DOWN/FileRead,headerName,|S32,11,11,0,2,fileTime,Downstream Rb spectrometer
+/AwakeEventData/TT41.AWAKE-PLASMA-SPECTRO-DOWN/FileRead,headerValue,|S29,11,11,0,2,fileTime,Downstream Rb spectrometer
+/AwakeEventData/TT41.AWAKE-PLASMA-SPECTRO-DOWN/FileRead,nPixels,int32,1,1,0,2,fileTime,Downstream Rb spectrometer
+/AwakeEventData/TT41.AWAKE-PLASMA-SPECTRO-UP/FileRead,dataAcquisitionTime,int64,1,1,0,2,fileTime,Upstream Rb spectrometer
+/AwakeEventData/TT41.AWAKE-PLASMA-SPECTRO-UP/FileRead,dataAxis,float64,3648,3648,0,2,fileTime,Upstream Rb spectrometer
+/AwakeEventData/TT41.AWAKE-PLASMA-SPECTRO-UP/FileRead,dataValue,float64,3648,3648,0,2,fileTime,Upstream Rb spectrometer
+/AwakeEventData/TT41.AWAKE-PLASMA-SPECTRO-UP/FileRead,fileCount,int32,1,1,0,2,fileTime,Upstream Rb spectrometer
+/AwakeEventData/TT41.AWAKE-PLASMA-SPECTRO-UP/FileRead,fileName,|S56,1,1,0,2,fileTime,Upstream Rb spectrometer
+/AwakeEventData/TT41.AWAKE-PLASMA-SPECTRO-UP/FileRead,fileReadDelay,int64,1,1,0,2,fileTime,Upstream Rb spectrometer
+/AwakeEventData/TT41.AWAKE-PLASMA-SPECTRO-UP/FileRead,fileTime,int64,1,1,0,2,fileTime,Upstream Rb spectrometer
+/AwakeEventData/TT41.AWAKE-PLASMA-SPECTRO-UP/FileRead,headerName,|S32,11,11,0,2,fileTime,Upstream Rb spectrometer
+/AwakeEventData/TT41.AWAKE-PLASMA-SPECTRO-UP/FileRead,headerValue,|S29,11,11,0,2,fileTime,Upstream Rb spectrometer
+/AwakeEventData/TT41.AWAKE-PLASMA-SPECTRO-UP/FileRead,nPixels,int32,1,1,0,2,fileTime,Upstream Rb spectrometer
+/AwakeEventData/TT41.BCTF.412340/Acquisition,acqTime,|S26,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,beamDestinationStr,|S5,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,beamID,int32,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,calResultCh1,int32,2,2,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,calResultCh2,int32,2,2,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,calStatusCh1,int16,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,calStatusCh2,int16,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,calibrationFactorCh1,float32,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,calibrationFactorCh2,float32,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,calibratorIMeasuredCh1,float32,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,calibratorIMeasuredCh2,float32,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,calibratorVActual,float32,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,commonStatus,int16,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,cycleTime,|S26,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,descriptionCh1,|S1,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,descriptionCh2,|S1,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,inputOffsetCh1,int32,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,inputOffsetCh2,int32,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,measResultCh1,int32,32,32,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,measResultCh2,int32,32,32,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,measStatusCh1,int16,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,measStatusCh2,int16,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,nbOfMeas,int32,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,totalCurrentPreferred,float32,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,totalIntensityAutoCh1,float32,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,totalIntensityAutoCh2,float32,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,totalIntensityCalcCh1,float32,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,totalIntensityCalcCh2,float32,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,totalIntensityPreferred,float32,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,totalIntensity_unit,|S13,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BCTF.412340/Acquisition,totalIntensity_unitExponent,int32,1,1,0,2,acqTime,Beam intensity
+/AwakeEventData/TT41.BTV.412350/Acquisition,acqCounter,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,acqDesc,|S7,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,acqMsg,|S2,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,acqState,int64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,acqTime,|S26,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,acqTimeInCycle,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,acqType,|S13,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,acqTypeMaxNumber,int16,5,5,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,acqTypeNumber,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,acqTypeStr,|S14,5,5,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,amplitudeSet1,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,amplitudeSet2,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,beamID,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,cameraOffset,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,cameraOffset_max,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,cameraOffset_min,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,cameraSwitch,|S2,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,cameraZoom,|S3,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,cycleTime,|S26,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,descSet1,|S21,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,descSet2,|S19,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,deviceName,|S15,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,filterSelect,|S4,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,filterSelectStr,|S9,4,4,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,filterSelect_max,|S5,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,filterSelect_min,|S10,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,firstLamp,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,firstLamp_max,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,firstLamp_min,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,fitThresholdSet1,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,fitThresholdSet2,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,leftBottomReference,int16,2,2,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,leftOriginFitOffsetSet1,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,leftOriginFitOffsetSet2,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,leftTopReference,int16,2,2,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,mire,|S3,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,nbAcq,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,nbDataSets,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,nbGates,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,nbPtsLeftFitOffsetSet1,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,nbPtsLeftFitOffsetSet2,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,nbPtsPerProjInSet1,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,nbPtsPerProjInSet2,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,nbPtsRightFitOffsetSet1,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,nbPtsRightFitOffsetSet2,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,observables,int64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,offsetCalSet1,float64,4,4,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,offsetCalSet2,float64,4,4,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,offsetSet1,float64,1,1,1,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,offsetSet2,float64,1,1,1,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,pixelCalSet1,float64,4,4,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,pixelCalSet2,float64,4,4,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,planeSet1,|S10,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,planeSet2,|S8,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,positionSet1,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,positionSet2,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,projDataSet1,float64,400,1,400,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,projDataSet2,float64,300,1,300,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,projPositionSet1,float64,400,1,400,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,projPositionSet2,float64,300,1,300,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,propType,|S11,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,rightBottomReference,int16,2,2,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,rightOriginFitOffsetSet1,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,rightOriginFitOffsetSet2,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,rightTopReference,int16,2,2,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,saturationThreshold,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,screenSelect,|S4,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,screenSelectStr,|S10,4,4,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,screenSelect_max,|S5,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,screenSelect_min,|S10,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,secondLamp,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,secondLamp_max,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,secondLamp_min,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,sigmaSet1,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,sigmaSet2,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,superCycleNb,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,tgSet1,float64,1,1,1,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,tgSet2,float64,1,1,1,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Acquisition,videoGain,|S5,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412350/Image,acqCounter,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,acqDesc,|S7,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,acqMsg,|S2,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,acqState,int64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,acqTime,|S26,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,acqTimeInCycle,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,acqType,|S13,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,acqTypeMaxNumber,int16,5,5,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,acqTypeNumber,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,acqTypeStr,|S14,5,5,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,amplitudeSet1,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,amplitudeSet2,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,beamID,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,cameraOffset,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,cameraOffset_max,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,cameraOffset_min,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,cameraSwitch,|S2,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,cameraZoom,|S3,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,cycleTime,|S26,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,descSet1,|S21,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,descSet2,|S19,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,deviceName,|S15,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,filterSelect,|S4,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,filterSelectStr,|S9,4,4,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,filterSelect_max,|S5,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,filterSelect_min,|S10,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,firstLamp,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,firstLamp_max,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,firstLamp_min,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,fitThresholdSet1,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,fitThresholdSet2,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,imagePositionSet1,float64,400,1,400,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,imagePositionSet1_unit,|S2,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,imagePositionSet2,float64,300,1,300,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,imagePositionSet2_unit,|S2,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,imageSelection,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,imageSet,int16,120000,1,120000,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,leftBottomReference,int16,2,2,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,leftOriginFitOffsetSet1,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,leftOriginFitOffsetSet2,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,leftTopReference,int16,2,2,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,mire,|S3,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,nbAcq,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,nbDataSets,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,nbImages,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,nbPtsInSet1,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,nbPtsInSet2,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,nbPtsLeftFitOffsetSet1,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,nbPtsLeftFitOffsetSet2,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,nbPtsRightFitOffsetSet1,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,nbPtsRightFitOffsetSet2,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,observables,int64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,offsetCalSet1,float64,4,4,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,offsetCalSet2,float64,4,4,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,pixelCalSet1,float64,4,4,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,pixelCalSet2,float64,4,4,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,planeSet1,|S10,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,planeSet2,|S8,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,positionSet1,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,positionSet2,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,propType,|S5,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,rightBottomReference,int16,2,2,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,rightOriginFitOffsetSet1,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,rightOriginFitOffsetSet2,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,rightTopReference,int16,2,2,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,saturationThreshold,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,screenSelect,|S4,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,screenSelectStr,|S10,4,4,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,screenSelect_max,|S5,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,screenSelect_min,|S10,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,secondLamp,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,secondLamp_max,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,secondLamp_min,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,sigmaSet1,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,sigmaSet2,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,superCycleNb,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,userImageSelection,None,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,userImageSelectionNumber,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350/Image,videoGain,|S5,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412350.STREAK/StreakImage,streakImageBinning,|S5,1,1,0,2,streakImageTime,BI Streak
+/AwakeEventData/TT41.BTV.412350.STREAK/StreakImage,streakImageData,int16,344064,344064,0,2,streakImageTime,BI Streak
+/AwakeEventData/TT41.BTV.412350.STREAK/StreakImage,streakImageExposureTime,|S5,1,1,0,2,streakImageTime,BI Streak
+/AwakeEventData/TT41.BTV.412350.STREAK/StreakImage,streakImageHeight,int64,1,1,0,2,streakImageTime,BI Streak
+/AwakeEventData/TT41.BTV.412350.STREAK/StreakImage,streakImageInfo,|S2382,1,1,0,2,streakImageTime,BI Streak
+/AwakeEventData/TT41.BTV.412350.STREAK/StreakImage,streakImageMcpGain,int64,1,1,0,2,streakImageTime,BI Streak
+/AwakeEventData/TT41.BTV.412350.STREAK/StreakImage,streakImageMode,|S7,1,1,0,2,streakImageTime,BI Streak
+/AwakeEventData/TT41.BTV.412350.STREAK/StreakImage,streakImageProjection,float32,512,512,0,2,streakImageTime,BI Streak
+/AwakeEventData/TT41.BTV.412350.STREAK/StreakImage,streakImageTime,|S12,1,1,0,2,streakImageTime,BI Streak
+/AwakeEventData/TT41.BTV.412350.STREAK/StreakImage,streakImageTimeRange,|S4,1,1,0,2,streakImageTime,BI Streak
+/AwakeEventData/TT41.BTV.412350.STREAK/StreakImage,streakImageTimeValues,float64,512,512,0,2,streakImageTime,BI Streak
+/AwakeEventData/TT41.BTV.412350.STREAK/StreakImage,streakImageTrigLevel,float32,1,1,0,2,streakImageTime,BI Streak
+/AwakeEventData/TT41.BTV.412350.STREAK/StreakImage,streakImageWidth,int64,1,1,0,2,streakImageTime,BI Streak
+/AwakeEventData/TT41.BTV.412353/Acquisition,acqCounter,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,acqDesc,|S7,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,acqMsg,|S2,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,acqState,int64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,acqTime,|S26,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,acqTimeInCycle,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,acqType,|S13,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,acqTypeMaxNumber,int16,5,5,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,acqTypeNumber,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,acqTypeStr,|S14,5,5,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,amplitudeSet1,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,amplitudeSet2,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,beamID,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,cameraOffset,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,cameraOffset_max,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,cameraOffset_min,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,cameraSwitch,|S2,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,cameraZoom,|S3,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,cycleTime,|S26,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,descSet1,|S21,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,descSet2,|S19,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,deviceName,|S15,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,filterSelect,|S5,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,filterSelectStr,|S9,4,4,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,filterSelect_max,|S5,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,filterSelect_min,|S10,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,firstLamp,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,firstLamp_max,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,firstLamp_min,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,fitThresholdSet1,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,fitThresholdSet2,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,leftBottomReference,int16,2,2,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,leftOriginFitOffsetSet1,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,leftOriginFitOffsetSet2,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,leftTopReference,int16,2,2,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,mire,|S3,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,nbAcq,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,nbDataSets,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,nbGates,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,nbPtsLeftFitOffsetSet1,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,nbPtsLeftFitOffsetSet2,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,nbPtsPerProjInSet1,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,nbPtsPerProjInSet2,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,nbPtsRightFitOffsetSet1,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,nbPtsRightFitOffsetSet2,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,observables,int64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,offsetCalSet1,float64,4,4,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,offsetCalSet2,float64,4,4,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,offsetSet1,float64,1,1,1,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,offsetSet2,float64,1,1,1,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,pixelCalSet1,float64,4,4,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,pixelCalSet2,float64,4,4,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,planeSet1,|S10,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,planeSet2,|S8,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,positionSet1,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,positionSet2,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,projDataSet1,float64,381,1,381,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,projDataSet2,float64,246,1,246,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,projPositionSet1,float64,381,1,381,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,projPositionSet2,float64,246,1,246,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,propType,|S11,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,rightBottomReference,int16,2,2,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,rightOriginFitOffsetSet1,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,rightOriginFitOffsetSet2,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,rightTopReference,int16,2,2,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,saturationThreshold,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,screenSelect,|S4,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,screenSelectStr,|S10,4,4,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,screenSelect_max,|S5,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,screenSelect_min,|S10,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,secondLamp,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,secondLamp_max,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,secondLamp_min,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,sigmaSet1,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,sigmaSet2,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,superCycleNb,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,tgSet1,float64,1,1,1,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,tgSet2,float64,1,1,1,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Acquisition,videoGain,|S5,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412353/Image,acqCounter,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,acqDesc,|S7,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,acqMsg,|S2,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,acqState,int64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,acqTime,|S26,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,acqTimeInCycle,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,acqType,|S13,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,acqTypeMaxNumber,int16,5,5,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,acqTypeNumber,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,acqTypeStr,|S14,5,5,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,amplitudeSet1,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,amplitudeSet2,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,beamID,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,cameraOffset,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,cameraOffset_max,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,cameraOffset_min,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,cameraSwitch,|S2,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,cameraZoom,|S3,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,cycleTime,|S26,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,descSet1,|S21,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,descSet2,|S19,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,deviceName,|S15,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,filterSelect,|S5,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,filterSelectStr,|S9,4,4,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,filterSelect_max,|S5,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,filterSelect_min,|S10,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,firstLamp,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,firstLamp_max,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,firstLamp_min,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,fitThresholdSet1,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,fitThresholdSet2,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,imagePositionSet1,float64,381,1,381,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,imagePositionSet1_unit,|S2,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,imagePositionSet2,float64,246,1,246,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,imagePositionSet2_unit,|S2,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,imageSelection,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,imageSet,int16,93726,1,93726,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,leftBottomReference,int16,2,2,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,leftOriginFitOffsetSet1,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,leftOriginFitOffsetSet2,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,leftTopReference,int16,2,2,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,mire,|S3,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,nbAcq,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,nbDataSets,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,nbImages,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,nbPtsInSet1,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,nbPtsInSet2,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,nbPtsLeftFitOffsetSet1,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,nbPtsLeftFitOffsetSet2,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,nbPtsRightFitOffsetSet1,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,nbPtsRightFitOffsetSet2,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,observables,int64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,offsetCalSet1,float64,4,4,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,offsetCalSet2,float64,4,4,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,pixelCalSet1,float64,4,4,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,pixelCalSet2,float64,4,4,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,planeSet1,|S10,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,planeSet2,|S8,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,positionSet1,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,positionSet2,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,propType,|S5,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,rightBottomReference,int16,2,2,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,rightOriginFitOffsetSet1,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,rightOriginFitOffsetSet2,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,rightTopReference,int16,2,2,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,saturationThreshold,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,screenSelect,|S4,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,screenSelectStr,|S10,4,4,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,screenSelect_max,|S5,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,screenSelect_min,|S10,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,secondLamp,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,secondLamp_max,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,secondLamp_min,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,sigmaSet1,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,sigmaSet2,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,superCycleNb,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,userImageSelection,None,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,userImageSelectionNumber,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412353/Image,videoGain,|S5,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Acquisition,acqCounter,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,acqDesc,|S7,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,acqMsg,|S2,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,acqState,int64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,acqTime,|S26,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,acqTimeInCycle,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,acqType,|S13,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,acqTypeMaxNumber,int16,5,5,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,acqTypeNumber,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,acqTypeStr,|S14,5,5,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,amplitudeSet1,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,amplitudeSet2,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,beamID,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,cameraOffset,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,cameraOffset_max,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,cameraOffset_min,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,cameraSwitch,|S2,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,cameraZoom,|S3,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,cycleTime,|S26,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,descSet1,|S21,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,descSet2,|S19,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,deviceName,|S15,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,filterSelect,|S5,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,filterSelectStr,|S9,4,4,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,filterSelect_max,|S5,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,filterSelect_min,|S10,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,firstLamp,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,firstLamp_max,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,firstLamp_min,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,fitThresholdSet1,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,fitThresholdSet2,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,leftBottomReference,int16,2,2,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,leftOriginFitOffsetSet1,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,leftOriginFitOffsetSet2,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,leftTopReference,int16,2,2,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,mire,|S3,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,nbAcq,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,nbDataSets,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,nbGates,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,nbPtsLeftFitOffsetSet1,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,nbPtsLeftFitOffsetSet2,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,nbPtsPerProjInSet1,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,nbPtsPerProjInSet2,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,nbPtsRightFitOffsetSet1,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,nbPtsRightFitOffsetSet2,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,observables,int64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,offsetCalSet1,float64,4,4,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,offsetCalSet2,float64,4,4,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,offsetSet1,float64,1,1,1,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,offsetSet2,float64,1,1,1,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,pixelCalSet1,float64,4,4,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,pixelCalSet2,float64,4,4,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,planeSet1,|S10,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,planeSet2,|S8,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,positionSet1,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,positionSet2,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,projDataSet1,float64,378,1,378,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,projDataSet2,float64,285,1,285,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,projPositionSet1,float64,378,1,378,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,projPositionSet2,float64,285,1,285,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,propType,|S11,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,rightBottomReference,int16,2,2,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,rightOriginFitOffsetSet1,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,rightOriginFitOffsetSet2,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,rightTopReference,int16,2,2,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,saturationThreshold,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,screenSelect,|S5,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,screenSelectStr,|S10,4,4,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,screenSelect_max,|S5,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,screenSelect_min,|S10,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,secondLamp,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,secondLamp_max,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,secondLamp_min,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,sigmaSet1,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,sigmaSet2,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,superCycleNb,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,tgSet1,float64,1,1,1,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,tgSet2,float64,1,1,1,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Acquisition,videoGain,|S5,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412426/Image,acqCounter,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,acqDesc,|S7,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,acqMsg,|S2,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,acqState,int64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,acqTime,|S26,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,acqTimeInCycle,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,acqType,|S13,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,acqTypeMaxNumber,int16,5,5,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,acqTypeNumber,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,acqTypeStr,|S14,5,5,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,amplitudeSet1,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,amplitudeSet2,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,beamID,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,cameraOffset,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,cameraOffset_max,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,cameraOffset_min,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,cameraSwitch,|S2,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,cameraZoom,|S3,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,cycleTime,|S26,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,descSet1,|S21,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,descSet2,|S19,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,deviceName,|S15,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,filterSelect,|S5,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,filterSelectStr,|S9,4,4,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,filterSelect_max,|S5,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,filterSelect_min,|S10,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,firstLamp,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,firstLamp_max,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,firstLamp_min,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,fitThresholdSet1,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,fitThresholdSet2,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,imagePositionSet1,float64,378,1,378,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,imagePositionSet1_unit,|S2,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,imagePositionSet2,float64,285,1,285,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,imagePositionSet2_unit,|S2,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,imageSelection,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,imageSet,int16,107730,1,107730,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,leftBottomReference,int16,2,2,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,leftOriginFitOffsetSet1,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,leftOriginFitOffsetSet2,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,leftTopReference,int16,2,2,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,mire,|S3,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,nbAcq,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,nbDataSets,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,nbImages,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,nbPtsInSet1,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,nbPtsInSet2,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,nbPtsLeftFitOffsetSet1,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,nbPtsLeftFitOffsetSet2,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,nbPtsRightFitOffsetSet1,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,nbPtsRightFitOffsetSet2,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,observables,int64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,offsetCalSet1,float64,4,4,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,offsetCalSet2,float64,4,4,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,pixelCalSet1,float64,4,4,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,pixelCalSet2,float64,4,4,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,planeSet1,|S10,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,planeSet2,|S8,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,positionSet1,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,positionSet2,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,propType,|S5,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,rightBottomReference,int16,2,2,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,rightOriginFitOffsetSet1,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,rightOriginFitOffsetSet2,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,rightTopReference,int16,2,2,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,saturationThreshold,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,screenSelect,|S5,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,screenSelectStr,|S10,4,4,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,screenSelect_max,|S5,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,screenSelect_min,|S10,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,secondLamp,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,secondLamp_max,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,secondLamp_min,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,sigmaSet1,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,sigmaSet2,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,superCycleNb,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,userImageSelection,None,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,userImageSelectionNumber,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412426/Image,videoGain,|S5,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Acquisition,acqCounter,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,acqDesc,|S7,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,acqMsg,|S2,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,acqState,int64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,acqTime,|S26,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,acqTimeInCycle,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,acqType,|S13,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,acqTypeMaxNumber,int16,5,5,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,acqTypeNumber,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,acqTypeStr,|S14,5,5,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,amplitudeSet1,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,amplitudeSet2,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,beamID,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,cameraOffset,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,cameraOffset_max,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,cameraOffset_min,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,cameraSwitch,|S2,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,cameraZoom,|S3,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,cycleTime,|S26,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,descSet1,|S21,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,descSet2,|S19,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,deviceName,|S15,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,filterSelect,|S5,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,filterSelectStr,|S9,4,4,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,filterSelect_max,|S5,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,filterSelect_min,|S10,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,firstLamp,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,firstLamp_max,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,firstLamp_min,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,fitThresholdSet1,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,fitThresholdSet2,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,leftBottomReference,int16,2,2,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,leftOriginFitOffsetSet1,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,leftOriginFitOffsetSet2,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,leftTopReference,int16,2,2,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,mire,|S3,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,nbAcq,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,nbDataSets,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,nbGates,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,nbPtsLeftFitOffsetSet1,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,nbPtsLeftFitOffsetSet2,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,nbPtsPerProjInSet1,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,nbPtsPerProjInSet2,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,nbPtsRightFitOffsetSet1,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,nbPtsRightFitOffsetSet2,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,observables,int64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,offsetCalSet1,float64,4,4,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,offsetCalSet2,float64,4,4,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,offsetSet1,float64,1,1,1,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,offsetSet2,float64,1,1,1,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,pixelCalSet1,float64,4,4,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,pixelCalSet2,float64,4,4,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,planeSet1,|S10,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,planeSet2,|S8,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,positionSet1,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,positionSet2,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,projDataSet1,float64,169,1,169,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,projDataSet2,float64,136,1,136,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,projPositionSet1,float64,169,1,169,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,projPositionSet2,float64,136,1,136,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,propType,|S11,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,rightBottomReference,int16,2,2,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,rightOriginFitOffsetSet1,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,rightOriginFitOffsetSet2,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,rightTopReference,int16,2,2,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,saturationThreshold,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,screenSelect,|S6,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,screenSelectStr,|S13,4,4,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,screenSelect_max,|S5,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,screenSelect_min,|S10,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,secondLamp,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,secondLamp_max,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,secondLamp_min,int16,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,sigmaSet1,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,sigmaSet2,float64,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,superCycleNb,int32,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,tgSet1,float64,1,1,1,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,tgSet2,float64,1,1,1,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Acquisition,videoGain,|S5,1,1,0,2,acqTime,Acq Properties
+/AwakeEventData/TT41.BTV.412442/Image,acqCounter,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,acqDesc,|S7,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,acqMsg,|S2,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,acqState,int64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,acqTime,|S26,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,acqTimeInCycle,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,acqType,|S13,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,acqTypeMaxNumber,int16,5,5,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,acqTypeNumber,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,acqTypeStr,|S14,5,5,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,amplitudeSet1,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,amplitudeSet2,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,beamID,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,cameraOffset,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,cameraOffset_max,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,cameraOffset_min,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,cameraSwitch,|S2,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,cameraZoom,|S3,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,cycleTime,|S26,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,descSet1,|S21,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,descSet2,|S19,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,deviceName,|S15,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,filterSelect,|S5,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,filterSelectStr,|S9,4,4,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,filterSelect_max,|S5,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,filterSelect_min,|S10,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,firstLamp,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,firstLamp_max,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,firstLamp_min,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,fitThresholdSet1,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,fitThresholdSet2,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,imagePositionSet1,float64,169,1,169,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,imagePositionSet1_unit,|S2,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,imagePositionSet2,float64,136,1,136,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,imagePositionSet2_unit,|S2,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,imageSelection,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,imageSet,int16,22984,1,22984,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,leftBottomReference,int16,2,2,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,leftOriginFitOffsetSet1,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,leftOriginFitOffsetSet2,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,leftTopReference,int16,2,2,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,mire,|S3,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,nbAcq,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,nbDataSets,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,nbImages,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,nbPtsInSet1,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,nbPtsInSet2,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,nbPtsLeftFitOffsetSet1,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,nbPtsLeftFitOffsetSet2,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,nbPtsRightFitOffsetSet1,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,nbPtsRightFitOffsetSet2,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,observables,int64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,offsetCalSet1,float64,4,4,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,offsetCalSet2,float64,4,4,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,pixelCalSet1,float64,4,4,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,pixelCalSet2,float64,4,4,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,planeSet1,|S10,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,planeSet2,|S8,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,positionSet1,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,positionSet2,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,propType,|S5,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,rightBottomReference,int16,2,2,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,rightOriginFitOffsetSet1,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,rightOriginFitOffsetSet2,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,rightTopReference,int16,2,2,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,saturationThreshold,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,screenSelect,|S6,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,screenSelectStr,|S13,4,4,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,screenSelect_max,|S5,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,screenSelect_min,|S10,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,secondLamp,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,secondLamp_max,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,secondLamp_min,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,sigmaSet1,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,sigmaSet2,float64,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,superCycleNb,int32,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,userImageSelection,None,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,userImageSelectionNumber,int16,1,1,0,2,acqTime,Beam image
+/AwakeEventData/TT41.BTV.412442/Image,videoGain,|S5,1,1,0,2,acqTime,Beam image
+/AwakeEventData/VGP.412400/PR,value,float64,1,1,0,0,acqStamp,Pressure gauge
+/AwakeEventData/VGP.412423/PR,value,float64,1,1,0,0,acqStamp,Pressure gauge
+/AwakeEventData/VTUAwake2Fc/ModeAcq,pdcOutDelay,int16,1,1,0,0,acqStamp,AWAKE Phase for SPS PLL
+/AwakeEventData/VTUAwake2Fc/NormalModeAcq,b_offline,int64,1,1,0,0,acqStamp,SPS RF bucket timing
+/AwakeEventData/VTUAwake2Frep/ModeAcq,pdcOutDelay,int16,1,1,0,0,acqStamp,AWAKE Phase for SPS PLL
+/AwakeEventData/VTUAwake2Frep/NormalModeAcq,b_offline,int64,1,1,0,0,acqStamp,SPS RF bucket timing
+/AwakeEventData/VTUAwake3FT0/ModeAcq,pdcOutDelay,int16,1,1,0,0,acqStamp,BI Streak delay
+/AwakeEventData/VTUAwake3FT0/NormalModeAcq,b_offline,int64,1,1,0,0,acqStamp,BI Streak bucket
+/AwakeEventData/VTUAwake3FT1/ModeAcq,pdcOutDelay,int16,1,1,0,0,acqStamp,Streak fine delay
+/AwakeEventData/VTUAwake3FT1/NormalModeAcq,b_offline,int64,1,1,0,0,acqStamp,Streak bucket counter
+/AwakeEventData/VVGF.412400/StartCounterSt,value,int64,1,1,0,0,acqStamp,Fast valve counter
+/AwakeEventData/VVGF.412400/State,value,int16,1,1,0,0,acqStamp,Fast valve state
+/AwakeEventData/VVGF.412423/StartCounterSt,value,int64,1,1,0,0,acqStamp,Fast valve counter
+/AwakeEventData/VVGF.412423/State,value,int16,1,1,0,0,acqStamp,Fast valve state
+/AwakeEventData/XMPP-STREAK/StreakImage,streakImageBinning,|S5,1,1,0,2,streakImageTime,MPP Streak
+/AwakeEventData/XMPP-STREAK/StreakImage,streakImageData,int16,344064,344064,0,2,streakImageTime,MPP Streak
+/AwakeEventData/XMPP-STREAK/StreakImage,streakImageExposureTime,|S5,1,1,0,2,streakImageTime,MPP Streak
+/AwakeEventData/XMPP-STREAK/StreakImage,streakImageHeight,int64,1,1,0,2,streakImageTime,MPP Streak
+/AwakeEventData/XMPP-STREAK/StreakImage,streakImageInfo,|S2803,1,1,0,2,streakImageTime,MPP Streak
+/AwakeEventData/XMPP-STREAK/StreakImage,streakImageMcpGain,int64,1,1,0,2,streakImageTime,MPP Streak
+/AwakeEventData/XMPP-STREAK/StreakImage,streakImageMode,|S7,1,1,0,2,streakImageTime,MPP Streak
+/AwakeEventData/XMPP-STREAK/StreakImage,streakImageProjection,float32,512,512,0,2,streakImageTime,MPP Streak
+/AwakeEventData/XMPP-STREAK/StreakImage,streakImageTime,|S14,1,1,0,2,streakImageTime,MPP Streak
+/AwakeEventData/XMPP-STREAK/StreakImage,streakImageTimeRange,|S6,1,1,0,2,streakImageTime,MPP Streak
+/AwakeEventData/XMPP-STREAK/StreakImage,streakImageTimeValues,float64,512,512,0,2,streakImageTime,MPP Streak
+/AwakeEventData/XMPP-STREAK/StreakImage,streakImageTrigLevel,float32,1,1,0,2,streakImageTime,MPP Streak
+/AwakeEventData/XMPP-STREAK/StreakImage,streakImageWidth,int64,1,1,0,2,streakImageTime,MPP Streak
+/AwakeEventData/awake.XAWAVS_BEAML_TT_AVG/PosSt,value,float64,1,1,0,0,acqStamp,Plasma cell beamline temp
+/AwakeEventData/awake.XAWAVS_DE_TT_AVG/PosSt,value,float64,1,1,0,0,acqStamp,Downstream end temp
+/AwakeEventData/awake.XAWAVS_DF_TT_AVG/PosSt,value,float64,1,1,0,0,acqStamp,Downstream flask temp
+/AwakeEventData/awake.XAWAVS_DJ_PV236/StsReg01,value,|S71,1,None,None,0,acqStamp,Downstream flask valve
+/AwakeEventData/awake.XAWAVS_UE_TT_AVG/PosSt,value,float64,1,1,0,0,acqStamp,Upstream end temp
+/AwakeEventData/awake.XAWAVS_UF_TT_AVG/PosSt,value,float64,1,1,0,0,acqStamp,Upstream falsk temp
+/AwakeEventData/awake.XAWAVS_UJ_PV136/StsReg01,value,|S71,1,None,None,0,acqStamp,Upstream flask valve
+/AwakeEventData/awake.XAWAVS_VX_TT_AVG/PosSt,value,float64,1,1,0,0,acqStamp,Average plasma cell temp
+/AwakeEventInfo,configurationVersionNumber,int32,1,None,None,0,None,None
+/AwakeEventInfo,eventNumber,int32,1,None,None,0,None,None
+/AwakeEventInfo,runNumber,int32,1,None,None,0,None,None
+/AwakeEventInfo,timestamp,int64,1,None,None,0,None,None

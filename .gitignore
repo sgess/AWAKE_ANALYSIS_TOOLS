@@ -1,0 +1,4 @@
+scratch
+.DS_store
+__pycache__
+*.swp

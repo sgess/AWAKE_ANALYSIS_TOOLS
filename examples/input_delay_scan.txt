@@ -1,0 +1,29 @@
+# required fields
+searchDir = /eos/experiment/awake/event_data/
+#ntupleDir = ./ #best if your current directory is your scratch directory
+#ntupleFile = example_ntup.h5
+/AwakeEventInfo/timestamp > 05-06-2017 23:00:00
+/AwakeEventInfo/timestamp < 06-06-2017 02:00:00
+
+# Apply cuts
+/AwakeEventData/TT41.BCTF.412340/Acquisition/totalIntensityPreferred < 100.0
+/AwakeEventData/TT41.BCTF.412340/Acquisition/totalIntensityPreferred > 1.0
+#BunchRotation == True
+#/AwakeEventData/XMPP-STREAK/StreakImage/streakImageMcpGain == 35
+#/AwakeEventData/XMPP-STREAK/StreakImage/streakImageTimeRange == 1 ns
+#/AwakeEventData/VTUAwake2Fc/NormalModeAcq/b_offline > 445551
+#/AwakeEventData/LSSP2/Acq/position == 'OUT'
+#/AwakeEventData/EMETER03/Acq/value > 0.03
+
+# Fields to be included in ntuple. Cut fields are included by default
+#/AwakeEventData/XMPP-STREAK/StreakImage/streakImageData
+#/AwakeEventData/XMPP-STREAK/StreakImage/streakImageHeight
+#/AwakeEventData/XMPP-STREAK/StreakImage/streakImageTimeValues
+#/AwakeEventData/XMPP-STREAK/StreakImage/streakImageWidth
+#/AwakeEventData/awake.XAWAVS_BEAML_TT_AVG/PosSt/value
+#/AwakeEventData/awake.XAWAVS_DF_TT_AVG/PosSt/value
+#/AwakeEventData/awake.XAWAVS_UF_TT_AVG/PosSt/value
+#/AwakeEventData/awake.XAWAVS_VX_TT_AVG/PosSt/value
+
+# Ntupling flags
+#formatImages = 1 # this flag formats 1D image strings into 2D arrays
